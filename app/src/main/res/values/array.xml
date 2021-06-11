@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category">
+        <item>패션의류/잡화</item>
+        <item>뷰티</item>
+        <item>출산/유아동</item>
+        <item>식품</item>
+        <item>주방용품</item>
+        <item>생활용품</item>
+        <item>홈인테리어</item>
+        <item>가전디지털</item>
+        <item>자동차용품</item>
+        <item>도서/음반/DVD</item>
+        <item>완구/취미</item>
+        <item>문구/오피스</item>
+        <item>반려동물용품</item>
+        <item>헬스/건강식품</item>
+        <item>기타</item>
+    </string-array>
+
+</resources>

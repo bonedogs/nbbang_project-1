@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_1"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_notification_important_24"
+        android:title="공지 &amp; 이벤트"></item>
+    <item
+        android:id="@+id/action_2"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_aod_24"
+        android:title="게시글"></item>
+    <item
+        android:id="@+id/action_4"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="채팅"></item>
+    <item
+        android:id="@+id/action_5"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="My page"></item>
+
+</menu>

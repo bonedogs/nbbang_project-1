@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/noticeItem"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_gravity="center"
+        android:background="#DA8989"
+        android:paddingLeft="20dp"
+        android:paddingTop="25dp"
+        android:text="공지사항과 이벤트"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="146dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:background="#ffffff"
+            android:padding="3dp"
+            android:text="뼈개들"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/dateText"
+            android:layout_width="156dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#ffffff"
+            android:padding="3dp"
+            android:text="2021-04-28"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
