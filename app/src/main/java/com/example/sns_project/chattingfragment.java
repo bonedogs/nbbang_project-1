@@ -9,10 +9,10 @@ import androidx.fragment.app.Fragment;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link frag3#newInstance} factory method to
+ * Use the {@link chattingfragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class frag3 extends Fragment {
+public class chattingfragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -23,7 +23,7 @@ public class frag3 extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public frag3() {
+    public chattingfragment() {
         // Required empty public constructor
     }
 
@@ -36,8 +36,8 @@ public class frag3 extends Fragment {
      * @return A new instance of fragment BlankFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static frag3 newInstance(String param1, String param2) {
-        frag3 fragment = new frag3();
+    public static chattingfragment newInstance(String param1, String param2) {
+        chattingfragment fragment = new chattingfragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);

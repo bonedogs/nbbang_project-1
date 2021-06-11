@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 import com.example.sns_project.R;
 import com.example.sns_project.chattest.StartFragment;
-import com.example.sns_project.frag3;
+import com.example.sns_project.chattingfragment;
 import com.example.sns_project.noticepack.NoticeConctectFragment;
 import com.example.sns_project.noticepack.NoticeFragment;
 import com.example.sns_project.postpack.PostFragment;
@@ -24,20 +24,9 @@ import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
-import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-
-import org.jetbrains.annotations.NotNull;
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class MainActivity extends AppCompatActivity implements NoticeFragment.OnNoticeSelectedListener {
     private static final String TAG = "MainActivity";
@@ -48,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements NoticeFragment.On
     private FragmentTransaction ft;
     private NoticeFragment frag1;
     private PostFragment frag2;
-    private frag3 frag3;
+    private chattingfragment frag3;
     private StartFragment frag4;
     private SettingFragment frag5;
     private TextView user_name;
@@ -115,7 +104,7 @@ public class MainActivity extends AppCompatActivity implements NoticeFragment.On
 
         frag1 = new NoticeFragment();
         frag2 = new PostFragment();
-        frag3 = new frag3();
+        frag3 = new chattingfragment();
         frag4 = new StartFragment();
         frag5 = new SettingFragment();
         setFrag(0); //가장 처음 fragment를 지정
