@@ -17,8 +17,7 @@ import com.google.firebase.auth.FirebaseUser;
 import java.util.ArrayList;
 
 public class PostListAdapter extends BaseAdapter {
-//    final private ArrayList<WriteInfo> mDataset;
-//    private Activity activity;
+
     private Context context;
     private ArrayList<WriteInfo> postList;
 
@@ -83,43 +82,5 @@ public class PostListAdapter extends BaseAdapter {
         v.setTag(postList.get(position).getTitle());
         return v;
     }
-
-
-//    public static class GalleryViewHolder extends RecyclerView.ViewHolder{
-//        public CardView cardView;
-//        public GalleryViewHolder(CardView v){
-//            super(v);
-//            cardView = v;
-//        }
-//    }
-//
-//    public PostListAdapter(Activity activity, ArrayList<WriteInfo> myDataset){
-//        mDataset = myDataset;
-//        this.activity = activity;
-//    }
-//
-//    @NonNull
-//    public PostListAdapter.GalleryViewHolder onCreateViewHolder(ViewGroup parent, int viewType){
-//        CardView cardView = (CardView) LayoutInflater.from(parent.getContext()).inflate(R.layout.item_post2, parent, false);
-//
-//        final GalleryViewHolder galleryViewHolder = new GalleryViewHolder(cardView);
-//        cardView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//            }
-//        });
-//
-//        return galleryViewHolder;
-//    }
-//
-//    public void onBindViewHolder(final GalleryViewHolder holder, int position) {
-//        CardView cardView = holder.cardView;
-//        TextView textView = cardView.findViewById(R.id.textView2);
-//        textView.setText(mDataset.get(position).getTitle());
-//    }
-//
-//    public int getItemCount(){
-//        return mDataset.size();
-//    }
 
 }

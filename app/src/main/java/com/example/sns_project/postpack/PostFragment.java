@@ -57,13 +57,6 @@ public class PostFragment extends Fragment {
         });
 
 
-//        postpage.findViewById(R.id.btn_enter_chat).setOnClickListener(new View.OnClickListener(){
-//            @Override
-//            public void onClick(View view){
-//                Intent intent = new Intent(getActivity(), MessageActivity.class);
-//                startActivity(intent);
-//            }
-//        });
 
         FirebaseFirestore db = FirebaseFirestore.getInstance();
 
@@ -99,13 +92,4 @@ public class PostFragment extends Fragment {
 
         return postpage;
     }
-   // 게시글 읽기용에 붙여넣기
-//    View.OnClickListener onClickListener = v -> {
-//        switch (v.getId()) {
-//            case R.id.btn_enter_chat:
-//                Intent intent = new Intent(v.getContext(), MessageActivity.class);
-//                startActivity(intent);
-//                break;
-//        }
-//    };
 }

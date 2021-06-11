@@ -47,16 +47,4 @@ public class Post {
         this.date = date;
     }
 
-    //게시글 읽기용에 붙여넣기
-//    View.OnClickListener onClickListener = new View.OnClickListener() {
-//        @Override
-//        public void onClick(View v) {
-//            switch (v.getId()) {
-//                case R.id.btn_enter_chat:
-//                    Intent intent = new Intent(Post.this, GroupMessageActivity.class);
-//                    startActivity(intent);
-//                    break;
-//            }
-//        }
-//    };
 }

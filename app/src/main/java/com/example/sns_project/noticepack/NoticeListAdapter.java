@@ -47,18 +47,6 @@ public class NoticeListAdapter extends BaseAdapter {
         nameText.setText(noticeList.get(position).getName());
         dateText.setText(noticeList.get(position).getDate());
 
-//        Intent myIntent = new Intent(context, Notice_first.class);
-
-//        noticeText.setOnClickListener(new View.OnClickListener() {
-//            public void onClick(View v){
-//                //해당 리스트 클릭시 이벤트
-//
-//                Toast.makeText(v.getContext(), noticeList.get(position).getNotice(), Toast.LENGTH_SHORT).show();
-////                context.startActivity(myIntent);
-//
-//            }
-//        });
-
         v.setTag(noticeList.get(position).getNotice());
         return v;
     }
